@@ -1,6 +1,26 @@
-.env
-.env.*
-!.env.example
+# Python virtual environment
+venv/
+env/
+.venv/
+
+# Byte-compiled / cache files
 __pycache__/
 *.py[cod]
-.ve
+*$py.class
+.pytest_cache/
+
+# Local databases and SQLite files
+instance/
+*.sqlite
+*.db
+
+# Private evidence uploads
+uploads/
+app/uploads/
+
+# Environment and secrets
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
